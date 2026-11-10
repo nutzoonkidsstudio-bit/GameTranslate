@@ -90,7 +90,7 @@ fun CameraOverlayScreen() {
                 modifier = Modifier.background(Color.Black.copy(alpha = 0.6f), CircleShape)
             ) {
                 Icon(
-                    imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                    imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Close,
                     contentDescription = "Oynat/Durdur",
                     tint = Color.White
                 )

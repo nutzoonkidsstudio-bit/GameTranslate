@@ -48,5 +48,6 @@ dependencies {
     implementation("androidx.camera:camera-view:$camerax")
 
     implementation("com.google.mlkit:text-recognition:16.0.1")
-    implementation("com.google.mlkit:translate:17.0.3")
+implementation("com.google.mlkit:translate:17.0.3")
+    implementation("com.google.ai.client.generativeai:generativeai:0.7.0")
 }
